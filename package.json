@@ -1,0 +1,11 @@
+{
+  "name": "vue-mental-calc",
+  "version": "1.0.0",
+  "description": "Game Mental Calculation written in VueJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Serghei Luchianenco",
+  "private": true
+}
