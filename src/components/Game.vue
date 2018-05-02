@@ -33,8 +33,8 @@
 </template>
 
 <script>
-import Timer from './Timer';
-import GameDisplay from './GameDisplay';
+import Timer from './Timer'
+import GameDisplay from './GameDisplay'
 import GameKeyboard from './GameKeyboard'
 
 export default {

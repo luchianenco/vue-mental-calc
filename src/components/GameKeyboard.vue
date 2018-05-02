@@ -12,9 +12,9 @@
 </template>
 
 <script>
-    export default {
-        name: "game-keyboard"
-    }
+export default {
+  name: 'game-keyboard'
+}
 </script>
 
 <style scoped>
