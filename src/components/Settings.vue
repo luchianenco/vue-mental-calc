@@ -16,7 +16,7 @@
             default: 5
           },
           operations: {
-            sum: true,
+            result: true,
             division: true,
             difference: false,
             multiplication: false,

@@ -54,9 +54,7 @@ export default {
       title: 'Main Page'
     }
   },
-  props: ['lastResult', 'totalPrecision', 'settings'],
-  components: {
-  }
+  props: ['lastResult', 'totalPrecision', 'settings']
 }
 </script>
 <style scoped>

@@ -28,13 +28,14 @@ export default {
         if (this.timeStart < 0) {
           clearInterval(intervalId)
           this.timerNow = '00:00'
+          this.$emit('time-out')
         }
       }, 1000)
     }
   },
   mounted: function () {
     this.countdownTimer()
-    this.timeStart = this.duration * 60
+    this.timeStart = this.duration * 60 - 50
   },
   props: ['duration']
 }
